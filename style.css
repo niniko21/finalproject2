@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+}
+.logo img {
+  width: 134px;
+  height: 42px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+.ac a {
+  padding: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.navb button {
+  width: 180px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.firstcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstcon img{
+    width: 1200px;
+    height: 530px;   
+}
+.mainh1{
+    font-family: Raleway;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+padding: 90px;
+padding-right: 90px;
+}
+
+.prifiletxt{
+  padding-left: 20px;
+}
+.postimg h6{
+  font-family: Raleway;
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #4F46E5;
+}
+.postimg h2{
+  font-family: Raleway;
+font-size: 24px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+color: black;
+}
+.postimg p{
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+.profileimg{
+  align-items: center;
+  display: inline-flex;
+}
+.profile{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ponstcon1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ponstcon2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer{
+  width: 100%;
+  height: 240px;
+  background-color: black;
+}
+.fott{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ff h1{
+  padding: 20px;
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: white;
+}
+.ff p{
+  padding: 10px;
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: white;
+}
+.joinus h1{
+  padding: 20px;
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+
+.pagination ul {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  border-radius: inline;
+  padding: 1rem;
+  font-weight: semi-bold;
+}
+ul li {
+  cursor: pointer;
+  padding: min(1.2rem, 1.5vw);
+  text-align: center;
+  transition: all 0.3s;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.dots {
+  cursor: default;
+}
+span {
+  display: block;
+}
+.prev span,
+.next span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+span ion-icon {
+  font-size: 1.5rem;
+}
+.prev{
+  background-color: #d9d9d9;
+  padding: min(1.5rem, 1.5vw);
+}
+.next {
+  background-color: #4F46E5;
+  padding: min(1.5rem, 1.5vw);
+}
+
+
+ul .active,
+ul .num:hover,
+ul .btn:hover {
+  background-color: #4F46E5;
+  color: white;
+}
+
+#par {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
